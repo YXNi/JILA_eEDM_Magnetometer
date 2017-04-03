@@ -1,0 +1,18 @@
+eeschema (2013-07-07 BZR 4022)-stable  >> Creation date: 8/3/2015 10:44:43 AM
+#Cmp ( order = Reference )
+| C1         4.7uF       
+| C2         0.1uF       
+| C3         0.22uF      
+| MAG1       HMC5883     
+| P1         BOLT_CONN_SINGLE_SUPP
+#End Cmp
+
+#Cmp ( order = Value )
+| 0.1uF        C2        
+| 0.22uF       C3        
+| 4.7uF        C1        
+| HMC5883      MAG1      
+| BOLT_CONN_SINGLE_SUPP P1        
+#End Cmp
+
+#End List

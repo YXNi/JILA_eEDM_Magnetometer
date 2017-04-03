@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 9/25/2015 8:29:04 PM
+
+BeginCmp
+TimeStamp = /56049AA0;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56049AC2;
+Reference = C2;
+ValeurCmp = 22uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /56049912;
+Reference = K1;
+ValeurCmp = VReg;
+IdModule  = TO220_VERT;
+EndCmp
+
+BeginCmp
+TimeStamp = /56060294;
+Reference = K2;
+ValeurCmp = Switch;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A9A29F;
+Reference = P1;
+ValeurCmp = SHIELD_CONN;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A9A2E6;
+Reference = P2;
+ValeurCmp = SHIELD_CONN;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A9A302;
+Reference = P3;
+ValeurCmp = SHIELD_CONN;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A9A31E;
+Reference = P4;
+ValeurCmp = SHIELD_CONN;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A9A2D8;
+Reference = P5;
+ValeurCmp = SHIELD_CONN;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A9A2F4;
+Reference = P6;
+ValeurCmp = SHIELD_CONN;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A9A310;
+Reference = P7;
+ValeurCmp = SHIELD_CONN;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A9A32C;
+Reference = P8;
+ValeurCmp = SHIELD_CONN;
+IdModule  = DB9FC;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A9A36A;
+Reference = P9;
+ValeurCmp = Power;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A9A674;
+Reference = P10;
+ValeurCmp = Reset;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A9A355;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_MEGA_SHIELD;
+IdModule  = ARDUINO MEGA SHIELD;
+EndCmp
+
+EndListe

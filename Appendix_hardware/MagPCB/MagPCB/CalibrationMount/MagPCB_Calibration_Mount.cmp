@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 7/29/2015 4:39:39 PM
+
+BeginCmp
+TimeStamp = /55B95542;
+Reference = HCONN1;
+ValeurCmp = HOST_CONN;
+IdModule  = HCONN;
+EndCmp
+
+BeginCmp
+TimeStamp = /55AD3B7B;
+Reference = P1;
+ValeurCmp = BOLT_CONN_SINGLE_SUPP;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B950A1;
+Reference = R1;
+ValeurCmp = Thermistor;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /55B950AE;
+Reference = R2;
+ValeurCmp = 30k;
+IdModule  = R3;
+EndCmp
+
+EndListe

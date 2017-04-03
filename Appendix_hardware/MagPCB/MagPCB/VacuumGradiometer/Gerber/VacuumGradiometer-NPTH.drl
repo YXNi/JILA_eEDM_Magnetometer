@@ -1,0 +1,17 @@
+M48
+;DRILL file {Pcbnew (2013-07-07 BZR 4022)-stable} date 10/26/2015 6:46:53 PM
+;FORMAT={-:-/ absolute / inch / decimal}
+FMAT,2
+INCH,TZ
+T1C0.110
+%
+G90
+G05
+M72
+T1
+X7.7953Y-5.9055
+X7.7953Y-8.2677
+X8.5433Y-4.7244
+X8.5433Y-7.0866
+T0
+M30

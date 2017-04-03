@@ -1,0 +1,950 @@
+PCBNEW-LibModule-V1  10/26/2015 6:25:00 PM
+# encoding utf-8
+Units mm
+$INDEX
+CALIB_MOUNT_HOLES
+DueShieldMountingHole
+HCONN
+HMC5883
+HOST_DUNGLE_TEMP
+Host_dungle
+Mounting_Hole
+SO-16-Narrow
+Shield_IDC
+VG_conn
+VG_mount
+bolt_conn_host_single_supply
+bolt_conn_single_supply
+bolt_connector
+calibration_mount_pads
+$EndINDEX
+$MODULE CALIB_MOUNT_HOLES
+Po 0 0 0 15 55B95A96 00000000 ~~
+Li CALIB_MOUNT_HOLES
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "CALIB_MOUNT_HOLES"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "" C 7.62 7.62 0 0 0
+Dr 6.35 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -12.7 0
+.LocalClearance 1.27
+$EndPAD
+$PAD
+Sh "" C 7.62 7.62 0 0 0
+Dr 6.35 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 12.7 0
+.SolderPaste -7.62
+.LocalClearance 1.27
+$EndPAD
+$EndMODULE CALIB_MOUNT_HOLES
+$MODULE DueShieldMountingHole
+Po 0 0 0 15 560B293F 00000000 ~~
+Li DueShieldMountingHole
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2 1 1 0 0.15 N V 21 N "DueShieldMountingHole"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "" C 7.62 7.62 0 0 0
+Dr 6.35 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -63.5 38.1
+$EndPAD
+$PAD
+Sh "" C 7.62 7.62 0 0 0
+Dr 6.35 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 63.5 38.1
+$EndPAD
+$PAD
+Sh "" C 7.62 7.62 0 0 0
+Dr 6.35 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 63.5 -38.1
+$EndPAD
+$PAD
+Sh "" C 7.62 7.62 0 0 0
+Dr 6.35 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -63.5 -38.1
+$EndPAD
+$EndMODULE DueShieldMountingHole
+$MODULE HCONN
+Po 0 0 0 15 55B95794 00000000 ~~
+Li HCONN
+Sc 0
+AR /55B95542
+Op 0 0 0
+T0 0 -3.6 1 1 0 0.15 N V 21 N "HCONN1"
+T1 0 -5.7 1 1 0 0.15 N V 21 N "HOST_CONN"
+$PAD
+Sh "3" C 2.54 2.54 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 5 "VDD"
+Po -10 0
+$EndPAD
+$PAD
+Sh "1" C 2.54 2.54 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 2 "GND"
+Po -5 0
+$EndPAD
+$PAD
+Sh "5" C 2.54 2.54 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 3 "SCL"
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" C 2.54 2.54 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 4 "SDA"
+Po 5 0
+$EndPAD
+$PAD
+Sh "4" C 2.54 2.54 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 1 "AIN"
+Po 10 0
+$EndPAD
+$EndMODULE HCONN
+$MODULE HMC5883
+Po 0 0 0 15 5575D5A5 00000000 ~~
+Li HMC5883
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4 1 1 0 0.15 N V 21 N "HMC5883"
+T1 0 -2.5 1 1 0 0.15 N V 21 N "MAG**"
+DC -1.2 -1.2 -1.1 -1.2 0.15 21
+DS -1.5 0 -1.5 -0.5 0.15 21
+DS -1.5 0 -1.5 -1.5 0.15 21
+DS -1.5 -1.5 1.5 -1.5 0.15 21
+DS 1.5 -1.5 1.5 0 0.15 21
+DS 1.5 0 1.5 1.5 0.15 21
+DS 1.5 1.5 -1.5 1.5 0.15 21
+DS -1.5 1.5 -1.5 0 0.15 21
+$PAD
+Sh "1" R 0.45 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.275 -0.75
+.LocalClearance 0.05
+.ZoneConnection 1
+$EndPAD
+$PAD
+Sh "2" R 0.45 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.275 -0.25
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "3" R 0.45 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.275 0.25
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "4" R 0.45 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.275 0.75
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "5" R 0.45 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 1.275
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "6" R 0.45 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 1.275
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "7" R 0.45 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 1.275
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "8" R 0.45 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 1.275
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "9" R 0.45 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.275 0.75
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "10" R 0.45 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.275 0.25
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "11" R 0.45 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.275 -0.25
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "12" R 0.45 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.275 -0.75
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "13" R 0.45 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.75 -1.275
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "14" R 0.45 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.25 -1.275
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "15" R 0.45 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.25 -1.275
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "16" R 0.45 0.3 0 0 900
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.75 -1.275
+.LocalClearance 0.05
+$EndPAD
+$EndMODULE HMC5883
+$MODULE HOST_DUNGLE_TEMP
+Po 0 0 0 15 55CB8B33 00000000 ~~
+Li HOST_DUNGLE_TEMP
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -5 1 1 0 0.15 N V 21 N "HOST_DUNGLE_TEMP"
+T1 0 -10 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "4" R 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "8" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10 0
+$EndPAD
+$PAD
+Sh "3" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -15 0
+$EndPAD
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -20 0
+$EndPAD
+$PAD
+Sh "7" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "6" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10 0
+$EndPAD
+$PAD
+Sh "5" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 15 0
+$EndPAD
+$PAD
+Sh "9" C 1.5 1.5 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20 0
+$EndPAD
+$EndMODULE HOST_DUNGLE_TEMP
+$MODULE Host_dungle
+Po 0 0 0 15 55CB85DC 00000000 ~~
+Li Host_dungle
+Cd Connecteur DB9 male couche
+Kw CONN DB9
+Sc 0
+AR /55A6C132
+Op 0 0 0
+T0 1.27 -10.16 1.524 1.524 0 0.3048 N I 21 N ""
+T1 1.27 -3.81 1.524 1.524 0 0.3048 N I 21 N ""
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "SCL"
+Po -20 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 7 "SDA"
+Po -10 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 8 "VDD"
+Po -15 0
+$EndPAD
+$PAD
+Sh "4" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "GND"
+Po 0 0.1
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "A"
+Po 30 0
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "EN"
+Po -5 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "C"
+Po 5 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "B"
+Po 20 0
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 20 0
+$EndPAD
+$SHAPE3D
+Na "conn_DBxx/db9_male_pin90deg.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE Host_dungle
+$MODULE Mounting_Hole
+Po 0 0 0 15 55CA69F2 00000000 ~~
+Li Mounting_Hole
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N I 21 N ""
+T1 0 0 1 1 0 0.15 N I 21 N ""
+$PAD
+Sh "" C 12 12 0 0 0
+Dr 7.9375 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -15.011 -0.984
+$EndPAD
+$PAD
+Sh "" C 12 12 0 0 0
+Dr 7.9375 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 15.011 -0.984
+$EndPAD
+$EndMODULE Mounting_Hole
+$MODULE SO-16-Narrow
+Po 0 0 0 15 55A7ECFE 00000000 ~~
+Li SO-16-Narrow
+Cd Module CMS SOJ 16 pins large
+Kw CMS SOJ
+Sc 0
+AR /55A6BF8F
+Op 0 0 0
+At SMD
+T0 0.127 -1.27 1.016 1.016 0 0.2032 N V 21 N "MUX1"
+T1 0 1.27 1.016 1.016 0 0.2032 N V 21 N "MAX4617"
+DS -5.588 -0.762 -4.826 -0.762 0.2032 21
+DS -4.826 -0.762 -4.826 0.762 0.2032 21
+DS -4.826 0.762 -5.588 0.762 0.2032 21
+DS 5.588 -2.286 5.588 2.286 0.2032 21
+DS 5.588 2.286 -5.588 2.286 0.2032 21
+DS -5.588 2.286 -5.588 -2.286 0.2032 21
+DS -5.588 -2.286 5.588 -2.286 0.2032 21
+$PAD
+Sh "16" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 15 "VDD"
+Po -4.445 -2.3368
+$EndPAD
+$PAD
+Sh "14" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 8 "SDA2"
+Po -1.905 -2.3368
+$EndPAD
+$PAD
+Sh "13" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 7 "SDA1"
+Po -0.635 -2.3368
+$EndPAD
+$PAD
+Sh "12" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 10 "SDA4"
+Po 0.635 -2.3368
+$EndPAD
+$PAD
+Sh "11" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 1 "A"
+Po 1.905 -2.3368
+$EndPAD
+$PAD
+Sh "10" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 2 "B"
+Po 3.175 -2.3368
+$EndPAD
+$PAD
+Sh "9" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 3 "C"
+Po 4.445 -2.3368
+$EndPAD
+$PAD
+Sh "8" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 5 "GND"
+Po 4.445 2.3368
+$EndPAD
+$PAD
+Sh "7" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 3.175 2.3368
+$EndPAD
+$PAD
+Sh "6" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 4 "EN"
+Po 1.905 2.3368
+$EndPAD
+$PAD
+Sh "5" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 12 "SDA6"
+Po 0.635 2.3368
+$EndPAD
+$PAD
+Sh "4" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 14 "SDA8"
+Po -0.635 2.3368
+$EndPAD
+$PAD
+Sh "3" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 6 "SDA"
+Po -1.905 2.3368
+$EndPAD
+$PAD
+Sh "2" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 13 "SDA7"
+Po -3.175 2.3368
+$EndPAD
+$PAD
+Sh "1" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 11 "SDA5"
+Po -4.445 2.3368
+$EndPAD
+$PAD
+Sh "15" R 0.5334 1.9812 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 9 "SDA3"
+Po -3.175 -2.3368
+$EndPAD
+$SHAPE3D
+Na "smd/cms_so16.wrl"
+Sc 0.5 0.4 0.5
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE SO-16-Narrow
+$MODULE Shield_IDC
+Po 0 0 0 15 560B1D74 00000000 ~~
+Li Shield_IDC
+Cd Double rangee de contacts 2 x 5 pins
+Kw CONN
+Sc 0
+AR /55A9A29F
+Op 0 0 0
+T0 0 -6 1.016 1.016 0 0.2032 N V 21 N "P1"
+T1 0 -3.81 1.016 1.016 0 0.2032 N I 21 N "SHIELD_CONN"
+DS -1.2 -4.4 -1.2 -3.4 0.15 21
+DS -1.2 -3.4 1.2 -3.4 0.15 21
+DS 1.2 -3.4 1.2 -4.4 0.15 21
+DS -10.16 -4.5 -10.16 4.5 0.3 21
+DS 10.16 -4.5 10.16 4.5 0.3 21
+DS -10.16 -4.5 10.16 -4.5 0.3 21
+DS -10.16 4.5 10.16 4.5 0.3 21
+$PAD
+Sh "5" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 9 "VDD"
+Po -5.08 1.27
+$EndPAD
+$PAD
+Sh "1" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "GND"
+Po -5.08 -1.27
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 7 "SDA"
+Po -2.54 1.27
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "SCL"
+Po -2.54 -1.27
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "EN1"
+Po 0 1.27
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "A"
+Po 0 -1.27
+$EndPAD
+$PAD
+Sh "8" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "B"
+Po 2.54 1.27
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "C"
+Po 2.54 -1.27
+$EndPAD
+$PAD
+Sh "9" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 8 "TEMP1"
+Po 5.08 1.27
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE Shield_IDC
+$MODULE VG_conn
+Po 0 0 0 15 562EC459 00000000 ~~
+Li VG_conn
+Cd Double rangee de contacts 2 x 4 pins
+Kw CONN
+Sc 0
+AR /562EB5C6
+Op 0 0 0
+T0 0 -3.81 1.016 1.016 0 0.2032 N V 21 N "VG_conn1"
+T1 0 -6.35 1.016 1.016 0 0.2032 N I 21 N "VG_CONN"
+$PAD
+Sh "1" R 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 7 "VDD"
+Po -11.43 0
+$EndPAD
+$PAD
+Sh "2" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "3" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "SCL"
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "4" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 3 "SDA1"
+Po 0 0
+$EndPAD
+$PAD
+Sh "6" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 4 "SDA2"
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "5" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 5 "SDA3"
+Po 7.62 0
+$EndPAD
+$PAD
+Sh "7" C 1.524 1.524 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 6 "SDA4"
+Po 11.43 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_4x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE VG_conn
+$MODULE VG_mount
+Po 0 0 0 15 562EBFAB 00000000 ~~
+Li VG_mount
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "VG_mount"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "" C 3.81 3.81 0 0 0
+Dr 2.794 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 9.5 15
+$EndPAD
+$PAD
+Sh "" C 3.81 3.81 0 0 0
+Dr 2.794 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -9.5 -15
+$EndPAD
+$PAD
+Sh "" C 3.81 3.81 0 0 0
+Dr 2.794 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po -9.5 45
+$EndPAD
+$PAD
+Sh "" C 3.81 3.81 0 0 0
+Dr 2.794 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 9.5 -45
+$EndPAD
+$EndMODULE VG_mount
+$MODULE bolt_conn_host_single_supply
+Po 0 0 0 15 55CBACD5 00000000 ~~
+Li bolt_conn_host_single_supply
+Sc 0
+AR /55A05665
+Op 0 0 0
+T0 0 -12 1 1 0 0.15 N V 21 N "P3"
+T1 0 -10 1 1 0 0.15 N I 21 N "Val**"
+DS -3 -3 3 -3 0.15 21
+DS 3 -3 3 2 0.15 21
+DS 3 2 -3 2 0.15 21
+DS -3 2 -3 -3 0.15 21
+DS 0 2 7.25 2 0.15 21
+DS 7.25 2 7.25 -13.75 0.15 21
+DS 7.25 -13.75 -7.5 -13.75 0.15 21
+DS -7.5 -13.75 -7.5 2 0.15 21
+DS -7.5 2 0.25 2 0.15 21
+DS -1.5 -1.5 1.5 -1.5 0.15 21
+DS 1.5 -1.5 1.5 1.5 0.15 21
+DS 1.5 1.5 -1.5 1.5 0.15 21
+DS -1.5 1.5 -1.5 -1.5 0.15 21
+DS -1.5 -1.5 -1.5 -1 0.15 21
+$PAD
+Sh "4" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 3 "SDA3"
+Po 0 -5
+$EndPAD
+$PAD
+Sh "2" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 1 "GND"
+Po 5 -5
+$EndPAD
+$PAD
+Sh "3" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 2 "SCL"
+Po -5 -5
+$EndPAD
+$PAD
+Sh "1" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 4 "VDD"
+Po -5 0
+$EndPAD
+$EndMODULE bolt_conn_host_single_supply
+$MODULE bolt_conn_single_supply
+Po 0 0 0 15 55A6E8F9 00000000 ~~
+Li bolt_conn_single_supply
+Sc 0
+AR /55A013CB
+Op 0 0 0
+T0 0 -12 1 1 0 0.15 N V 21 N "P1"
+T1 0 -10 1 1 0 0.15 N V 21 N "BOLT_CONN_SINGLE_SUPP"
+DS -6 -10 6 -10 0.15 21
+DS -1.5 -1.5 1.5 -1.5 0.15 21
+DS 1.5 -1.5 1.5 1.5 0.15 21
+DS 1.5 1.5 -1.5 1.5 0.15 21
+DS -1.5 1.5 -1.5 -1.5 0.15 21
+DS -1.5 -1.5 -1.5 -1 0.15 21
+$PAD
+Sh "4" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 3 "SDA"
+Po 0 -5
+$EndPAD
+$PAD
+Sh "2" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 1 "GND"
+Po 5 -5
+$EndPAD
+$PAD
+Sh "3" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 2 "SCL"
+Po -5 -5
+$EndPAD
+$PAD
+Sh "1" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 4 "VDD"
+Po -5 0
+$EndPAD
+$EndMODULE bolt_conn_single_supply
+$MODULE bolt_connector
+Po 0 0 0 15 55C3D78E 00000000 ~~
+Li bolt_connector
+Sc 0
+AR /55A013CB
+Op 0 0 0
+T0 0 -12 1 1 0 0.15 N I 21 N ""
+T1 0 -10 1 1 0 0.15 N I 21 N ""
+DS -6 -10 6 -10 0.15 21
+DS -1.5 -1.5 1.5 -1.5 0.15 21
+DS 1.5 -1.5 1.5 1.5 0.15 21
+DS 1.5 1.5 -1.5 1.5 0.15 21
+DS -1.5 1.5 -1.5 -1.5 0.15 21
+DS -1.5 -1.5 -1.5 -1 0.15 21
+$PAD
+Sh "4" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 3 "SDA"
+Po 0 -5
+$EndPAD
+$PAD
+Sh "2" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 1 "GND"
+Po 5 -5
+$EndPAD
+$PAD
+Sh "3" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 2 "SCL"
+Po -5 -5
+$EndPAD
+$PAD
+Sh "1" C 2.8 2.8 0 0 0
+Dr 1.55 0 0
+At STD N 00A0FFFF
+Ne 4 "VDD"
+Po -5 0
+$EndPAD
+$EndMODULE bolt_connector
+$MODULE calibration_mount_pads
+Po 0 0 0 15 55AD4865 00000000 ~~
+Li calibration_mount_pads
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -4 1 1 0 0.15 N V 21 N "calibration_mount_pads"
+T1 0 -2.4 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 2 2 0 0 0
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -6 0
+$EndPAD
+$PAD
+Sh "2" R 2 2 0 0 0
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po -2 0
+$EndPAD
+$PAD
+Sh "3" R 2 2 0 0 0
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 2 0
+$EndPAD
+$PAD
+Sh "4" R 2 2 0 0 0
+Dr 0 0 0
+At SMD N 00880001
+Ne 0 ""
+Po 6 0
+$EndPAD
+$EndMODULE calibration_mount_pads
+$EndLIBRARY

@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 8/12/2015 12:07:57 PM
+
+BeginCmp
+TimeStamp = /55A80B4F;
+Reference = C1;
+ValeurCmp = 10nF;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A6BF8F;
+Reference = MUX1;
+ValeurCmp = MAX4617;
+IdModule  = SO-16-Narrow;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A055FE;
+Reference = P1;
+ValeurCmp = BOLT_CONN_SINGLE_SUPP;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A05644;
+Reference = P2;
+ValeurCmp = BOLT_CONN_SINGLE_SUPP;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A05665;
+Reference = P3;
+ValeurCmp = BOLT_CONN_SINGLE_SUPP;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A0566F;
+Reference = P4;
+ValeurCmp = BOLT_CONN_SINGLE_SUPP;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A05651;
+Reference = P5;
+ValeurCmp = BOLT_CONN_SINGLE_SUPP;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A0565B;
+Reference = P6;
+ValeurCmp = BOLT_CONN_SINGLE_SUPP;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A05679;
+Reference = P7;
+ValeurCmp = BOLT_CONN_SINGLE_SUPP;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A05683;
+Reference = P8;
+ValeurCmp = BOLT_CONN_SINGLE_SUPP;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A6C132;
+Reference = P9;
+ValeurCmp = HOST_CONNECTOR_SINGLE_SUPP;
+IdModule  = HOST_DUNGLE_TEMP;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A80B5C;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A80B34;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A80B41;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55A80B47;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CB828C;
+Reference = R5;
+ValeurCmp = 30k;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55CB7ED9;
+Reference = TEMP1;
+ValeurCmp = TEMP;
+IdModule  = R1;
+EndCmp
+
+EndListe

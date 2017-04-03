@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/26/2015 4:55:31 PM
+
+BeginCmp
+TimeStamp = /562EAC1C;
+Reference = MAG1;
+ValeurCmp = HMC5883;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /562EAC3B;
+Reference = MAG2;
+ValeurCmp = HMC5883;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /562EAC29;
+Reference = MAG3;
+ValeurCmp = HMC5883;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /562EAC41;
+Reference = MAG4;
+ValeurCmp = HMC5883;
+IdModule  = bolt_conn_host_single_supply;
+EndCmp
+
+BeginCmp
+TimeStamp = /562EB5C6;
+Reference = VG_conn1;
+ValeurCmp = VG_CONN;
+IdModule  = VG_conn;
+EndCmp
+
+EndListe

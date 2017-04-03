@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/ThF/Dropbox/EDM Share/Magnetometer/MagPCB_single_supply/MagPCB_single_supply.sch</source>
+    <date>8/3/2015 10:41:19 AM</date>
+    <tool>Eeschema (after 2015-mar-04 BZR unknown)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>10 jul 2015</date>
+        <source>MagPCB_single_supply.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="MAG1">
+      <value>HMC5883</value>
+      <libsource lib="MagPCB_single_supply-cache" part="HMC5883"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A010BA</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A01563</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A015BE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.22uF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A0232E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MagPCB_single_supply-cache" part="HMC5883">
+      <fields>
+        <field name="Reference">MAG</field>
+        <field name="Value">HMC5883</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL" type="output"/>
+        <pin num="2" name="VDD" type="input"/>
+        <pin num="3" name="NC" type="output"/>
+        <pin num="4" name="S1" type="input"/>
+        <pin num="5" name="NC" type="output"/>
+        <pin num="6" name="NC" type="output"/>
+        <pin num="7" name="NC" type="output"/>
+        <pin num="8" name="SETP" type="output"/>
+        <pin num="9" name="GND" type="input"/>
+        <pin num="10" name="C1" type="output"/>
+        <pin num="11" name="GND" type="output"/>
+        <pin num="12" name="SETC" type="input"/>
+        <pin num="13" name="VDDIO" type="input"/>
+        <pin num="14" name="NC" type="input"/>
+        <pin num="15" name="DRDY" type="output"/>
+        <pin num="16" name="SDA" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MagPCB_single_supply-cache">
+      <uri>C:\Users\ThF\Dropbox\EDM Share\Magnetometer\MagPCB_single_supply\MagPCB_single_supply-cache.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="MAG1" pin="9"/>
+      <node ref="MAG1" pin="11"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(MAG1-Pad10)">
+      <node ref="MAG1" pin="10"/>
+    </net>
+    <net code="7" name="VDD">
+      <node ref="MAG1" pin="2"/>
+      <node ref="MAG1" pin="4"/>
+      <node ref="MAG1" pin="13"/>
+    </net>
+    <net code="8" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(MAG1-Pad8)">
+      <node ref="MAG1" pin="8"/>
+    </net>
+    <net code="11" name="Net-(MAG1-Pad12)">
+      <node ref="MAG1" pin="12"/>
+    </net>
+    <net code="12" name="Net-(MAG1-Pad15)">
+      <node ref="MAG1" pin="15"/>
+    </net>
+    <net code="13" name="Net-(MAG1-Pad14)">
+      <node ref="MAG1" pin="14"/>
+    </net>
+    <net code="14" name="Net-(MAG1-Pad7)">
+      <node ref="MAG1" pin="7"/>
+    </net>
+    <net code="15" name="Net-(MAG1-Pad6)">
+      <node ref="MAG1" pin="6"/>
+    </net>
+    <net code="16" name="Net-(MAG1-Pad5)">
+      <node ref="MAG1" pin="5"/>
+    </net>
+    <net code="17" name="Net-(MAG1-Pad3)">
+      <node ref="MAG1" pin="3"/>
+    </net>
+    <net code="18" name="SCL">
+      <node ref="MAG1" pin="1"/>
+    </net>
+    <net code="19" name="SDA">
+      <node ref="MAG1" pin="16"/>
+    </net>
+  </nets>
+</export>

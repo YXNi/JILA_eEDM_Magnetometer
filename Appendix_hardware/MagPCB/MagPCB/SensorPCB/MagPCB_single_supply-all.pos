@@ -1,0 +1,10 @@
+### Module positions - created on 8/5/2015 4:46:08 PM ###
+### Printed by Pcbnew version pcbnew (2013-07-07 BZR 4022)-stable
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C1       0.47uF           c_0805            200.0000  -138.0000       0.0    F.Cu
+C2       0.1uF            c_0805            195.0000  -138.0000     180.0    F.Cu
+C3       0.22uF           c_0805            205.0000  -138.0000       0.0    F.Cu
+MAG1     HMC5883          HMC5883           200.0000  -150.0000       0.0    F.Cu
+## End
